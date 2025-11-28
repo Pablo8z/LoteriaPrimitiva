@@ -30,7 +30,7 @@ public class LoteriaPrimitiva {
         int i = 0;
 
         while (i < 6) {
-            int n = random.nextInt((48)+1);
+            int n = random.nextInt(48)+1;
             boolean repetido = false;
 
             for (int j = 0; j < i; j++) {
