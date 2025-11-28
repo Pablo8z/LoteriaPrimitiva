@@ -11,6 +11,9 @@ public class LoteriaPrimitiva {
         int[] apuesta = generarNumerosAleatorios();
         int[] ganadora = generarNumerosAleatorios();
 
+        Arrays.sort(apuesta);
+        Arrays.sort(ganadora);
+
 
         int aciertos = contarAciertos(apuesta, ganadora);
 
