@@ -51,9 +51,9 @@ public class LoteriaPrimitiva {
   public static int contarAciertos(int[] apuesta, int[] ganadora) {
         int aciertos=0;
 
-        for(int numero : apuesta) {
+        for(int i : apuesta) {
 
-            if (Arrays.binarySearch(ganadora, numero) >= 0) {
+            if (Arrays.binarySearch(ganadora, i) >= 0) {
                 aciertos++;
             }
 
